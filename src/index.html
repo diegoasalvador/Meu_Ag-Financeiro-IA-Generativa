@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestAI - Seu Analista Financeiro</title>
+    <meta name="description" content="Assistente virtual focado em análise fundamentalista e educação financeira de ações da B3 e NYSE.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://unpkg.com/lucide@latest" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar lateral / Dashboard de Ações -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <i data-lucide="trending-up" class="logo-icon"></i>
+                <h1>Invest<span>AI</span></h1>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Explorar Mercado</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="b3">B3 (Nacional)</button>
+                    <button class="filter-btn" data-filter="nyse">Global (EUA)</button>
+                </div>
+            </div>
+
+            <div class="stocks-container" id="stocksContainer">
+                <!-- Cards de ações serão injetados aqui via JS -->
+            </div>
+        </aside>
+
+        <!-- Área principal de Chat -->
+        <main class="chat-area">
+            <header class="chat-header">
+                <div class="agent-info">
+                    <div class="avatar">
+                        <i data-lucide="bot"></i>
+                    </div>
+                    <div>
+                        <h2>InvestAI Assistant</h2>
+                        <span class="status"><span class="dot"></span> Online & Analisando</span>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="action-btn" title="Limpar Chat" id="clearChatBtn">
+                        <i data-lucide="trash-2"></i>
+                    </button>
+                </div>
+            </header>
+
+            <div class="chat-messages" id="chatMessages">
+                <!-- Mensagem inicial do bot -->
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Olá! Eu sou o <strong>InvestAI</strong>, seu assistente e educador em análise fundamentalista.</p>
+                        <p>Posso te ajudar a avaliar as métricas de empresas da B3 (como PETR4, VALE3) ou globais (como NVDA, AAPL) com base em critérios de Graham, Bazin, crescimento e dividendos.</p>
+                        <p>O que você gostaria de analisar hoje?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <div class="suggestions" id="suggestions">
+                    <span class="suggestion-chip">Analisar DY da PETR4</span>
+                    <span class="suggestion-chip">Preço justo de VALE3 (Graham)</span>
+                    <span class="suggestion-chip">NVDA vs MSFT</span>
+                </div>
+                <form id="chatForm" class="input-form">
+                    <input type="text" id="userInput" placeholder="Digite sua pergunta sobre investimentos..." autocomplete="off">
+                    <button type="submit" id="sendBtn" class="send-btn">
+                        <i data-lucide="send"></i>
+                    </button>
+                </form>
+                <div class="disclaimer-text">
+                    ⚠️ Atenção: Todo conteúdo gerado é puramente educacional e não constitui recomendação de compra ou venda de ativos.
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="app.js"></script>
+</body>
+</html>

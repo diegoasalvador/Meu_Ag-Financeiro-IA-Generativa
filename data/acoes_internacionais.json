@@ -1,0 +1,62 @@
+[
+  {
+    "ticker": "NVDA",
+    "empresa": "NVIDIA Corporation",
+    "setor": "Tecnologia / Semicondutores",
+    "cotacao_referencia": 128.50,
+    "pe_ratio": 75.4,
+    "pb_ratio": 42.1,
+    "dy_percent": 0.05,
+    "roic_percent": 48.5,
+    "margem_operacional_percent": 54.2,
+    "forward_pe": 35.8
+  },
+  {
+    "ticker": "AAPL",
+    "empresa": "Apple Inc.",
+    "setor": "Tecnologia / Hardware",
+    "cotacao_referencia": 185.30,
+    "pe_ratio": 28.5,
+    "pb_ratio": 38.2,
+    "dy_percent": 0.5,
+    "roic_percent": 56.4,
+    "margem_operacional_percent": 29.8,
+    "forward_pe": 26.1
+  },
+  {
+    "ticker": "MSFT",
+    "empresa": "Microsoft Corporation",
+    "setor": "Tecnologia / Software",
+    "cotacao_referencia": 412.80,
+    "pe_ratio": 35.2,
+    "pb_ratio": 12.8,
+    "dy_percent": 0.8,
+    "roic_percent": 28.7,
+    "margem_operacional_percent": 44.5,
+    "forward_pe": 31.4
+  },
+  {
+    "ticker": "KO",
+    "empresa": "The Coca-Cola Company",
+    "setor": "Consumo Não Cíclico",
+    "cotacao_referencia": 62.10,
+    "pe_ratio": 24.5,
+    "pb_ratio": 6.1,
+    "dy_percent": 3.1,
+    "roic_percent": 15.2,
+    "margem_operacional_percent": 28.6,
+    "forward_pe": 21.8
+  },
+  {
+    "ticker": "JNJ",
+    "empresa": "Johnson & Johnson",
+    "setor": "Saúde / Farmacêutica",
+    "cotacao_referencia": 158.40,
+    "pe_ratio": 14.8,
+    "pb_ratio": 5.4,
+    "dy_percent": 3.0,
+    "roic_percent": 17.5,
+    "margem_operacional_percent": 26.4,
+    "forward_pe": 13.9
+  }
+]

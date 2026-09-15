@@ -1,0 +1,72 @@
+[
+  {
+    "ticker": "PETR4",
+    "empresa": "Petróleo Brasileiro S.A. - Petrobras",
+    "setor": "Petróleo, Gás e Biocombustíveis",
+    "cotacao_referencia": 38.50,
+    "pl": 4.5,
+    "pvp": 1.2,
+    "dy_12m_percent": 18.5,
+    "roe_percent": 28.4,
+    "margem_liquida_percent": 24.5,
+    "divida_liquida_ebitda": 0.8,
+    "preco_teto_bazin": 52.00,
+    "preco_justo_graham": 65.30
+  },
+  {
+    "ticker": "VALE3",
+    "empresa": "Vale S.A.",
+    "setor": "Mineração",
+    "cotacao_referencia": 62.40,
+    "pl": 6.8,
+    "pvp": 1.5,
+    "dy_12m_percent": 11.2,
+    "roe_percent": 22.1,
+    "margem_liquida_percent": 19.3,
+    "divida_liquida_ebitda": 0.5,
+    "preco_teto_bazin": 78.50,
+    "preco_justo_graham": 91.20
+  },
+  {
+    "ticker": "ITUB4",
+    "empresa": "Itaú Unibanco Holding S.A.",
+    "setor": "Intermediários Financeiros",
+    "cotacao_referencia": 33.10,
+    "pl": 8.2,
+    "pvp": 1.7,
+    "dy_12m_percent": 7.5,
+    "roe_percent": 20.8,
+    "margem_liquida_percent": 15.4,
+    "divida_liquida_ebitda": null,
+    "preco_teto_bazin": 38.00,
+    "preco_justo_graham": 42.10
+  },
+  {
+    "ticker": "WEGE3",
+    "empresa": "WEG S.A.",
+    "setor": "Máquinas e Equipamentos",
+    "cotacao_referencia": 45.20,
+    "pl": 32.5,
+    "pvp": 8.4,
+    "dy_12m_percent": 1.8,
+    "roe_percent": 26.2,
+    "margem_liquida_percent": 16.8,
+    "divida_liquida_ebitda": -0.2,
+    "preco_teto_bazin": 18.50,
+    "preco_justo_graham": 12.40
+  },
+  {
+    "ticker": "BBAS3",
+    "empresa": "Banco do Brasil S.A.",
+    "setor": "Intermediários Financeiros",
+    "cotacao_referencia": 28.30,
+    "pl": 4.1,
+    "pvp": 0.9,
+    "dy_12m_percent": 10.4,
+    "roe_percent": 21.5,
+    "margem_liquida_percent": 14.2,
+    "divida_liquida_ebitda": null,
+    "preco_teto_bazin": 36.50,
+    "preco_justo_graham": 52.80
+  }
+]
